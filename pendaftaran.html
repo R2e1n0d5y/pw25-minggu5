@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran - RuselGenius</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Pendaftaran Lomba</h1>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="lomba.html">Lomba</a></li>
+      <li><a href="pendaftaran.html" class="active">Pendaftaran</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="form-section" tabindex="0">
+    <h2>Formulir Pendaftaran</h2>
+    <form id="registrationForm">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="lomba">Pilih Lomba:</label>
+      <select id="lomba" name="lomba">
+        <option value="Olimpiade Sains Nasional">Olimpiade Sains Nasional</option>
+        <option value="Kompetisi Robotika UNRAM">Kompetisi Robotika UNRAMB</option>
+        <option value="Argument English Debate Competition">Argument English Debate Competition</option>
+        <option value="Lomba Karya Tulis Ilmiah UIN Mataram">Lomba Karya Tulis Ilmiah UIN Mataram</option>
+        <option value="Inovasi Daerah Kota Matara">Inovasi Daerah Kota Mataram</option>
+        <option value="Turnamen Catur NTB">Turnamen Catur NTB</option>
+      </select><br>
+
+      <button type="submit">Daftar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RuselGenius | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
